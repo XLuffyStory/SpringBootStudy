@@ -1,0 +1,12 @@
+server:
+  port: 8090
+    
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql:///springboot_vue_chapter05
+    username: root
+    password: root
+      
+        
+       
