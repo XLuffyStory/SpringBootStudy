@@ -13,11 +13,11 @@ It also use the ehcache to cache the token.
 4.Login with correct username and password to get the token back and copy the token for later use.
 <image src="https://github.com/XLuffyStory/SpringBootStudy/blob/master/json_web_token_mybatis_ehcache/postman_screenshot/login_to_getToken.JPG">
 
-5.Go to the secure page without token(in the Authorization part, choose the type as Bear Token and paste the token get from step 4),
- it will fail and have message about no authorisation information
+5.Go to the secure page without token,it will fail and have message about no authorisation information
 <image src="https://github.com/XLuffyStory/SpringBootStudy/blob/master/json_web_token_mybatis_ehcache/postman_screenshot/secure_page.JPG">
 
-6.Go to the secure pate with token, it will be successful at this time.
+6.Go to the secure pate with token(in the Authorization part, choose the type as Bear Token and paste the token get from step 4),
+ it will be successful at this time.
 <image src="https://github.com/XLuffyStory/SpringBootStudy/blob/master/json_web_token_mybatis_ehcache/postman_screenshot/secure_page_with_token.JPG">
 
 7.Register another user as username as tom and get the token after login with tom to get token.
