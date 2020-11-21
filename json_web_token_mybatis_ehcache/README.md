@@ -23,3 +23,7 @@ It also use the ehcache to cache the token.
 7.Register another user as username as tom and get the token after login with tom to get token.
 Login with different user will have different token as token will have the username in it(setting in the token generation)
 <image src="https://github.com/XLuffyStory/SpringBootStudy/blob/master/json_web_token_mybatis_ehcache/postman_screenshot/secure_token_with_token_for_another_user.JPG">
+
+
+Put the jwt seceret in the properties file.
+https://pocket.blog.csdn.net/article/details/100522109
